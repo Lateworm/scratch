@@ -1,0 +1,45 @@
+:root {
+  --c-bg-1: #223;
+  --c-bg2-: #334;
+
+  --c-fg-1: #dde;
+  --c-fg-neg: #fcc;
+}
+
+/* ELEMENTS */
+
+body {
+  font-family: sans-serif;
+  background-color: var(--c-bg-1);
+  color: var(--c-fg-1);
+  font-size: 1.2rem;
+}
+
+input,
+button {
+  background-color: var(--c-bg2-);
+  color: var(--c-fg-1);
+  border: 0;
+  border-radius: .25rem;
+  font-size: 1.2rem;
+}
+
+a {
+  color: #ccf;
+  margin-right: 1rem;
+}
+
+h3, .h3 {
+  color: var(--c-fg-1);
+  display: block;
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+a:visited { color: #88c; }
+p { margin: 0.5rem; }
+
+/* SEMANTICS */
+
+.c-fg-neg { color: var(--c-fg-neg) };
